@@ -1,0 +1,23 @@
+[33mcommit 2e8d4be5926d7b6d41ecec3cd1acee586f6b39fb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: kevin94choi <kevin94choi@gmail.com>
+Date:   Tue Sep 17 23:31:45 2024 +0900
+
+    Updated weather and search icons
+
+[33mcommit 8fef695d84a9ce1f3b6884196f238369c9223962[m
+Author: kevin94choi <kevin94choi@gmail.com>
+Date:   Tue Sep 17 17:16:14 2024 +0900
+
+    Added weather and search icons
+
+[33mcommit 19d31223ba4ea6a2d8a3c6f3177a89005ce53787[m
+Author: kevin94choi <kevin94choi@gmail.com>
+Date:   Mon Sep 16 20:35:36 2024 +0900
+
+    Add HTML CSS and JS file
+
+[33mcommit e4c3bca04b18e4ec3b5c527e11f0813d7936c756[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kevin94choi <37989255+kevin94choi@users.noreply.github.com>
+Date:   Mon Sep 16 20:29:15 2024 +0900
+
+    Initial commit

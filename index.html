@@ -11,9 +11,37 @@
     <div class="container">
       <div class="search">
         <input class="searchInput" type="text" placeholder="Enter a city!" />
-        <button class="searchBtn">
-          <img class="searchBtnImg" src="Icons/Search.png" alt="" />
+        <button class="searchBtn" aria-label="Search">
+          <img
+            class="searchBtnImg"
+            src="Icons/Search.png"
+            alt="Search for weather"
+          />
         </button>
+      </div>
+      <div class="weather">
+        <div class="main-weather">
+          <h1 class="city">Toronto</h1>
+          <img class="weather-icon" src="Icons/clouds.png" />
+          <h2 class="temp">22°C</h2>
+          <h3 class="weather-condition">Cloudy</h3>
+        </div>
+        <div class="detail-weather">
+          <div class="col">
+            <img class="humidity-img" src="Icons/humidity.png" alt="Humidity" />
+            <div>
+              <p class="humidity">25%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img class="wind-img" src="Icons/wind (1).png" alt="Wind" />
+            <div>
+              <p class="Wind">25 km/hr</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
