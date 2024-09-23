@@ -52,6 +52,9 @@ body {
   cursor: pointer;
   background-color: grey;
 }
+.weather {
+  display: none;
+}
 
 .weather-icon {
   height: 120px;

@@ -41,6 +41,7 @@ async function getWeather(city) {
       weatherIcon.src = "Icons/storm.png";
     }
 
+    document.querySelector(".weather").style.display = "block";
     searchBox.value = "";
   } catch (error) {
     console.error("There was a problem with the fetch operation:", error);
