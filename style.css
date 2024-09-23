@@ -17,6 +17,12 @@ body {
   padding: 30px;
 }
 
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.7rem;
+}
+
 .search {
   display: flex;
   justify-content: center;
@@ -48,7 +54,7 @@ body {
 }
 
 .weather-icon {
-  height: 150px;
+  height: 120px;
 }
 
 .main-weather {
@@ -61,14 +67,17 @@ body {
 
 .main-weather h1 {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .main-weather h2 {
   font-size: 3rem;
+  margin-top: 1.5rem;
 }
 
 .main-weather h3 {
   font-size: 1.8rem;
+  margin-top: 0.5rem;
 }
 
 .main-weather img {
