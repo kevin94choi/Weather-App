@@ -46,8 +46,9 @@ async function getWeather(city) {
     searchBox.value = "";
   } catch (error) {
     console.error("There was a problem with the fetch operation:", error);
-    document.querySelector(".error-message").innerHTML =
-      "Can't find city. Try again!";
+    document.querySelector(
+      ".error-message"
+    ).innerHTML = `Can't find ${city}. Try again!`;
     document.querySelector(".error-message").style.display = "block";
     searchBox.value = "";
   }

@@ -3,14 +3,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif, "Times New Roman", Times, serif;
+  color: white;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(50, 48, 48);
 }
 
 .container {
-  background-color: rgb(144, 144, 144);
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin: 100px auto;
   max-width: 500px;
   border-radius: 10px;
@@ -35,6 +47,7 @@ body {
   border: none;
   padding: 10px;
   border-radius: 4px;
+  color: black;
 }
 
 .searchBtnImg {
@@ -55,8 +68,9 @@ body {
 }
 
 .error-message {
-  margin-left: 105px;
-  color: blue;
+  margin: 0 105px;
+  color: red;
+  font-size: 0.8rem;
 }
 
 .weather {
