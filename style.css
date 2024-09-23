@@ -28,6 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 7px;
 }
 
 .searchInput {
@@ -52,6 +53,12 @@ body {
   cursor: pointer;
   background-color: grey;
 }
+
+.error-message {
+  margin-left: 105px;
+  color: blue;
+}
+
 .weather {
   display: none;
 }
