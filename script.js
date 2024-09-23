@@ -27,24 +27,17 @@ async function getWeather(city) {
     );
 
     const weatherIcon = document.querySelector(".weather-icon");
+    const condition = weatherData.currentConditions.conditions;
 
-    if (weatherData.currentConditions.conditions === "Clear") {
+    if (condition === "Clear") {
       weatherIcon.src = "Icons/sun.png";
-    } else if (
-      weatherData.currentConditions.conditions.toLowerCase().includes("rain")
-    ) {
+    } else if (condition.toLowerCase().includes("rain")) {
       weatherIcon.src = "Icons/rain.png";
-    } else if (
-      weatherData.currentConditions.conditions.toLowerCase().includes("cloudy")
-    ) {
+    } else if (condition.toLowerCase().includes("cloudy")) {
       weatherIcon.src = "Icons/clouds.png";
-    } else if (
-      weatherData.currentConditions.conditions.toLowerCase().includes("snow")
-    ) {
+    } else if (condition.toLowerCase().includes("snow")) {
       weatherIcon.src = "Icons/snow.png";
-    } else if (
-      weatherData.currentConditions.conditions.toLowerCase().includes("storm")
-    ) {
+    } else if (condition.toLowerCase().includes("storm")) {
       weatherIcon.src = "Icons/storm.png";
     }
 
